@@ -17,6 +17,6 @@ node_modules
 
 # = CONFIG
 # ----------------------------------------------------------------------
-prerpros-6.config
-prerpros.config
-prerpros.cfg
+prepros-6.config
+prepros.config
+prepros.cfg
