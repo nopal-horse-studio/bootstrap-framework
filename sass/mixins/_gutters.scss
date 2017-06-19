@@ -1,0 +1,25 @@
+$grid-columns: 12 !default;
+$grid-gutter: 2% !default;
+
+.gutters {
+	@for $i from 1 through $grid-columns
+	{
+		& > .col-md-#{$i} {
+			 $width: 100% / $grid-columns * $i;
+               		 width: calc(#{$width} - #{$grid-gutter});
+               		 @include media(small) {
+               		 	width: 100%;
+               		 }
+		}
+	}
+}
+
+.row.gutters {
+	margin-left: -$grid-gutter;
+	@for $i from 1 through $grid-columns
+	{
+		& > .col-md-#{$i} {
+			margin-left: $grid-gutter;
+		}
+	}
+}

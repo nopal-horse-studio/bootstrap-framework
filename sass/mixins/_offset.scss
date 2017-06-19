@@ -1,0 +1,9 @@
+$grid-columns: 12 !default;
+
+@for $i from 1 through $grid-columns
+{
+	.offset-#{$i} {
+		$width: 100% / $grid-columns * $i;
+		margin-left: $width;
+	}
+}
