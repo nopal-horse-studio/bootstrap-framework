@@ -1,7 +1,7 @@
 $grid-columns: 12 !default;
 $grid-gutter: 2% !default;
 
-.gutters {
+.separate {
 	@for $i from 1 through $grid-columns
 	{
 		& > .col-md-#{$i} {
@@ -14,7 +14,7 @@ $grid-gutter: 2% !default;
 	}
 }
 
-.row.gutters {
+.row.separate {
 	margin-left: -$grid-gutter;
 	@for $i from 1 through $grid-columns
 	{

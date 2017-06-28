@@ -5,5 +5,8 @@ $grid-columns: 12 !default;
 	.push-#{$i} {
 		$width: 100% / $grid-columns * $i;
 		margin-right: $width;
+		@include media(small) {
+			margin-right: 0;
+		}
 	}
 }

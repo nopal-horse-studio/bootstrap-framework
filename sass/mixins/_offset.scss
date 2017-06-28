@@ -5,5 +5,8 @@ $grid-columns: 12 !default;
 	.offset-#{$i} {
 		$width: 100% / $grid-columns * $i;
 		margin-left: $width;
+		@include media(small) {
+			margin-left: 0;
+		}
 	}
 }
