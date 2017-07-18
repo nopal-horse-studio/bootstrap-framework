@@ -3,10 +3,55 @@
 	* Copyright 2011-2016 Twitter, Inc.
 	* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
-@import 	"_normalize";
-@import 	"_html5.boilerplate";
-@import 	"_framework";
-@import 	"mixins/_responsive";
-@import 	"mixins/_separate";
-@import 	"mixins/_offset";
-@import 	"mixins/_push";
+
+// Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset and dependencies
+@import "utils/normalize";
+@import "utils/html5";
+
+// Core CSS
+@import "scaffolding";
+@import "type";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+
+// Components
+@import "components/component-animations";
+@import "components/dropdowns";
+@import "components/button-groups";
+@import "components/input-groups";
+@import "components/navs";
+@import "components/navbar";
+@import "components/breadcrumbs";
+@import "components/pagination";
+@import "components/pager";
+@import "components/labels";
+@import "components/badges";
+@import "components/jumbotron";
+@import "components/thumbnails";
+@import "components/alerts";
+@import "components/progress-bars";
+@import "components/media";
+@import "components/list-group";
+@import "components/panels";
+@import "components/responsive-embed";
+@import "components/wells";
+@import "components/close";
+
+// Components w/ JavaScript
+@import "components/modals";
+@import "components/tooltip";
+@import "components/popovers";
+
+// Utility classes
+@import "utilities";
+@import "utils/separate";
+@import "utils/offset";
+@import "utils/push";
+@import "responsive-utilities";

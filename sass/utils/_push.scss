@@ -1,0 +1,12 @@
+$grid-columns: 12 !default;
+
+@for $i from 1 through $grid-columns
+{
+	.push-#{$i} {
+		$width: 100% / $grid-columns * $i;
+		margin-right: $width;
+		@media (max-width: $screen-sm-min) {
+			margin-right: 0;
+		}
+	}
+}
