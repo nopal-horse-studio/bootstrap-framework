@@ -18,7 +18,9 @@
 }
 
 .row {
-	//
+	width: 100%;
+	display: table;
+	position: relative;
 }
 
 @include make-grid-columns;
