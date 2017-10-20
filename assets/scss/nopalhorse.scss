@@ -1,11 +1,14 @@
 /*
-	MAIN
+	2017
+	Jorge Fco.	| Front-End
 */
-@import 	"functions";
+@import 	"utilities/functions";
+
 @import 	"variables";
 @import 	"print";
 @import 	"reboot";
 @import 	"type";
+
 
 @import 	"mixins/hover";
 @import 	"mixins/forms";
@@ -20,7 +23,7 @@
 
 @import 	"utilities/flex";
 
-@import 	"grid";
-@import 	"forms";
-@import 	"buttons";
-@import 	"pagination";
+@import 	"components/grid";
+@import 	"components/forms";
+@import 	"components/buttons";
+@import 	"components/pagination";
