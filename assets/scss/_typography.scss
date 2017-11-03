@@ -1,0 +1,20 @@
+html{
+	font-family: sans-serif;
+	line-height: 1.15;
+	box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body{
+	margin: 0;
+	font-family: $font-primary;
+	color: $color-text;
+	font-size: $size-text;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: left;
+	background-color: #ffffff;
+}

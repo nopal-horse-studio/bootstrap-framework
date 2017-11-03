@@ -2,28 +2,15 @@
 	2017
 	Jorge Fco.	| Front-End
 */
-@import 	"utilities/functions";
-
+@import 	"reset";
 @import 	"variables";
-@import 	"print";
-@import 	"reboot";
-@import 	"type";
+@import 	"typography";
 
-
-@import 	"mixins/hover";
-@import 	"mixins/forms";
-@import 	"mixins/buttons";
-@import 	"mixins/breakpoints";
-@import 	"mixins/box-shadow";
-@import 	"mixins/transitions";
-@import 	"mixins/border-radius";
-@import 	"mixins/grid-framework";
 @import 	"mixins/grid";
-@import 	"mixins/pagination";
-
-@import 	"utilities/flex";
 
 @import 	"components/grid";
+@import 	"components/label";
 @import 	"components/forms";
 @import 	"components/buttons";
-@import 	"components/pagination";
+
+@import 	"layout/container";
